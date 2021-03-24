@@ -17,6 +17,8 @@ public class FruitBox <T extends Fruit & Eatable>{
         return list.size();
     }
 
+    public ArrayList<T> getList() { return list; }
+
     @Override
     public String toString() {
         return list.toString();

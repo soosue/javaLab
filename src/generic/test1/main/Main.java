@@ -1,4 +1,6 @@
-package generic.test1;
+package generic.test1.main;
+
+import generic.test1.*;
 
 public class Main {
     public static void main(String[] args) {
